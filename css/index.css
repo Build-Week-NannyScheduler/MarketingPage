@@ -330,12 +330,23 @@ header .links {
   display: flex;
   padding: 10% 0;
 }
+.iphone-vector {
+  border: 2px solid green;
+  margin-left: 10%;
+}
 div {
   width: 30%;
 }
 .works-titles {
   border: 2px solid blue;
   color: white;
+  margin-left: 15%;
+}
+.works-titles h1 {
+  padding: 10% 0;
+}
+.works-titles h2 {
+  padding: 10% 0;
 }
 .trusted-content {
   border: 2px solid red;
