@@ -244,7 +244,50 @@ header .links {
   margin-top: 5%;
 }
 .explainer-content {
+  border: 2px solid purple;
+}
+.explainer-titles {
+  border: 2px solid black;
+  width: 100%;
+  text-align: center;
+}
+.explainer-titles h1 {
+  padding: 5%;
+}
+.nanny-container {
+  border: 2px solid black;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 5% 0;
+}
+.explainer-parent {
+  width: 35%;
   border: 2px solid red;
+}
+.explainer-parent h4 {
+  border: 2px solid green;
+  text-align: center;
+  text-transform: uppercase;
+}
+.explainer-parent .parent-vector {
+  border: 2px solid black;
+  width: 100%;
+  padding: 20% 10%;
+}
+.explainer-nanny {
+  width: 30%;
+  border: 2px solid green;
+}
+.explainer-nanny h4 {
+  border: 2px solid black;
+  text-align: center;
+  text-transform: uppercase;
+}
+.explainer-nanny .nanny-vector {
+  border: 2px solid black;
+  width: 100%;
+  padding: 10% 10%;
 }
 .works-content {
   background: salmon;
