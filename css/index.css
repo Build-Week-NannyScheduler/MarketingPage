@@ -353,14 +353,26 @@ div {
 }
 .trusted-content {
   border: 2px solid red;
-  display: flex;
-  flex-wrap: wrap;
+  width: 100%;
 }
 .trusted-top-header {
+  border: 2px green;
+  width: 100%;
+  text-align: center;
+}
+.trusted-top-header h1 {
+  padding: 5%;
+}
+.features-container {
+  border: 2px solid blue;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   width: 100%;
+  padding: 5% 5%;
+}
+.features-container div {
+  padding: 2% 0%;
 }
 .testimonials-content {
   border: 2px solid blue;

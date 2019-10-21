@@ -1,12 +1,32 @@
 .trusted-content {
   border: 2px solid red;
-  display: flex;
-  flex-wrap: wrap;
+  // display: flex;
+  // flex-wrap: wrap;
+  width: 100%;
 }
 
 .trusted-top-header {
+  // display: flex;
+  // flex-wrap: wrap;
+  // justify-content: center;
+  // width: 100%;
+  border: 2px green;
+  .header-titles(100%, center);
+
+  h1 {
+    padding: 5%;
+  }
+}
+
+.features-container {
+  border: 2px solid blue;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   width: 100%;
+  padding: 5% 5%;
+
+  div {
+    padding: 2% 0%;
+  }
 }
