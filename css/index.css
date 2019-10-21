@@ -385,19 +385,37 @@ div {
 }
 .testimonials-content {
   border: 2px solid blue;
-  padding: 5% 0;
+  width: 100%;
+}
+.testimonials-header {
+  border: 2px solid green;
+  width: 100%;
+  text-align: center;
+}
+.testimonials-header h1 {
+  padding: 5%;
 }
 .testimonials-container {
   border: 2px solid red;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
-.testimonials-headers {
+.testimonials-container .icon-title {
+  border: 2px solid red;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 100%;
+  align-items: baseline;
+  width: 60%;
+}
+.testimonials-container .testimonial-card {
+  border: 2px solid black;
+  width: 45%;
+  margin: 3% 0;
+}
+.testimonials-container p {
+  border: 2px solid blue;
+  margin: 0 10%;
 }
 .footer-content {
   background: salmon;

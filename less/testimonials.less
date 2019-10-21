@@ -1,6 +1,15 @@
 .testimonials-content {
   border: 2px solid blue;
-  padding: 5% 0;
+  width: 100%;
+}
+
+.testimonials-header {
+  border: 2px solid green;
+  .header-titles(100%, center);
+
+  h1 {
+    padding: 5%;
+  }
 }
 
 .testimonials-container {
@@ -8,11 +17,23 @@
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-}
+  justify-content: space-around;
 
-.testimonials-headers {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 100%;
+  .icon-title {
+    border: 2px solid red;
+    display: flex;
+    align-items: baseline;
+    width: 60%;
+  }
+
+  .testimonial-card {
+    border: 2px solid black;
+    width: 45%;
+    margin: 3% 0;
+  }
+
+  p {
+    border: 2px solid blue;
+    margin: 0 10%;
+  }
 }
