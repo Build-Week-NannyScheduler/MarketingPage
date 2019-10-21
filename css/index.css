@@ -231,6 +231,7 @@ header .links {
   justify-content: center;
   align-items: center;
   color: #ffffff;
+  border: #f1f2f4;
   cursor: pointer;
   margin-top: 5%;
 }
@@ -275,6 +276,23 @@ header .links {
   width: 100%;
   padding: 20% 10%;
 }
+.explainer-parent .explainer-button {
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  height: 40px;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  margin: auto;
+}
+.explainer-parent .explainer-button:hover {
+  background-color: #f7926f;
+  box-shadow: 0px 15px 20px rgba(100, 15, 26, 0.4);
+  color: #fff;
+}
 .explainer-nanny {
   width: 30%;
   border: 2px solid green;
@@ -287,7 +305,24 @@ header .links {
 .explainer-nanny .nanny-vector {
   border: 2px solid black;
   width: 100%;
-  padding: 10% 10%;
+  padding: 12% 10%;
+}
+.explainer-nanny .explainer-button {
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  height: 40px;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  margin: auto;
+}
+.explainer-nanny .explainer-button:hover {
+  background-color: #f7926f;
+  box-shadow: 0px 15px 20px rgba(100, 15, 26, 0.4);
+  color: #fff;
 }
 .works-content {
   background: salmon;
