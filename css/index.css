@@ -246,6 +246,7 @@ header .links {
 }
 .explainer-content {
   border: 2px solid purple;
+  width: 100%;
 }
 .explainer-titles {
   border: 2px solid black;
@@ -329,6 +330,7 @@ header .links {
   border: 2px solid blue;
   display: flex;
   padding: 10% 0;
+  width: 100%;
 }
 .iphone-vector {
   border: 2px solid green;
@@ -340,7 +342,8 @@ div {
 .works-titles {
   border: 2px solid blue;
   color: white;
-  margin-left: 15%;
+  margin-left: 10%;
+  width: 40%;
 }
 .works-titles h1 {
   padding: 10% 0;
