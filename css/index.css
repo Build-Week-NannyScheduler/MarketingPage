@@ -374,6 +374,15 @@ div {
 .features-container div {
   padding: 2% 0%;
 }
+.features-container .icon-title {
+  border: 2px solid red;
+  display: flex;
+  align-items: baseline;
+}
+.features-container h4 {
+  border: 2px solid blue;
+  margin: 0 10%;
+}
 .testimonials-content {
   border: 2px solid blue;
   padding: 5% 0;
