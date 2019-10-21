@@ -2,6 +2,7 @@
   border: 2px sold blue;
   display: flex;
   justify-content: space-between;
+  padding-bottom: 2%;
 
   div {
     border: 2px solid blue;
@@ -16,8 +17,9 @@
       padding: 10% 0;
     }
 
-    button {
-      padding: 20% 0;
+    .sign-up {
+      .custom-btn(@button-bg, 250px, @main-bg); //Parametric button
+      margin-top: 5%;
     }
   }
 } //this closes hero section

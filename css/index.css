@@ -208,6 +208,7 @@ header .links {
   border: 2px sold blue;
   display: flex;
   justify-content: space-between;
+  padding-bottom: 2%;
 }
 .hero-content div {
   border: 2px solid blue;
@@ -220,8 +221,18 @@ header .links {
   border: 2px solid red;
   padding: 10% 0;
 }
-.hero-content div button {
-  padding: 20% 0;
+.hero-content div .sign-up {
+  display: flex;
+  background: #f7926f;
+  width: 250px;
+  height: 40px;
+  font-size: 1.6rem;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  cursor: pointer;
+  margin-top: 5%;
 }
 .hero-titles {
   width: 50%;
