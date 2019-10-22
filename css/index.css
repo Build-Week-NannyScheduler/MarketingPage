@@ -168,17 +168,16 @@ img {
   height: auto;
 }
 .container {
-  max-width: 900px;
+  max-width: 1240px;
   width: 100%;
   margin: 0 auto;
 }
 /***** HOME PAGE STYLES *****/
 header {
-  border: 2px solid red;
-  padding: 1% 1%;
+  padding: 2% 0;
+  width: 100%;
 }
 header nav {
-  border: 2px solid blue;
   display: flex;
   justify-content: flex-end;
   width: 100%;
@@ -187,21 +186,18 @@ header nav div {
   width: 20%;
 }
 header nav a {
-  border: 2px solid green;
   font-size: 2rem;
+  color: #0a1f44;
   text-decoration: none;
 }
 header .logo {
-  border: 2px solid gold;
   width: 15%;
   margin-right: auto;
 }
 header .links {
-  border: 2px solid black;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  color: black;
   width: 45%;
 }
 .hero-content {
@@ -209,25 +205,28 @@ header .links {
   display: flex;
   justify-content: space-between;
   padding-bottom: 2%;
+  width: 100%;
 }
-.hero-content div {
-  border: 2px solid blue;
+.hero-titles {
+  width: 60%;
+  margin-top: 5%;
+  padding: 0 13%;
 }
-.hero-content div h1 {
-  border: 2px solid green;
+.hero-titles h1 {
   padding: 10% 0;
+  line-height: 1.5;
 }
-.hero-content div h2 {
-  border: 2px solid red;
-  padding: 10% 0;
+.hero-titles h2 {
+  line-height: 1.5;
+  margin-bottom: 10%;
 }
-.hero-content div .sign-up {
+.hero-titles .sign-up {
   display: flex;
   background: #f7926f;
   width: 250px;
   height: 40px;
   font-size: 1.6rem;
-  border-radius: 10px;
+  border-radius: 5px;
   justify-content: center;
   align-items: center;
   color: #ffffff;
@@ -235,21 +234,22 @@ header .links {
   cursor: pointer;
   margin-top: 5%;
 }
-.hero-titles {
-  width: 50%;
-  margin-top: 5%;
-  padding: 0 5%;
+.hero-titles .sign-up:hover {
+  background-color: #fff;
+  color: #f7926f;
+  border: 2px solid #f7926f;
 }
 .hero-vector {
   width: 40%;
   margin-top: 5%;
 }
+.hero-vector img {
+  margin-left: 17%;
+}
 .explainer-content {
-  border: 2px solid purple;
   width: 100%;
 }
 .explainer-titles {
-  border: 2px solid black;
   width: 100%;
   text-align: center;
 }
@@ -257,25 +257,23 @@ header .links {
   padding: 5%;
 }
 .nanny-container {
-  border: 2px solid black;
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   padding: 5% 0;
 }
 .explainer-parent {
   width: 35%;
-  border: 2px solid red;
 }
 .explainer-parent h4 {
-  border: 2px solid green;
   text-align: center;
   text-transform: uppercase;
 }
 .explainer-parent .parent-vector {
-  border: 2px solid black;
   width: 100%;
   padding: 20% 10%;
+  display: flex;
+  justify-content: center;
 }
 .explainer-parent .explainer-button {
   display: flex;
@@ -296,17 +294,16 @@ header .links {
 }
 .explainer-nanny {
   width: 30%;
-  border: 2px solid green;
 }
 .explainer-nanny h4 {
-  border: 2px solid black;
   text-align: center;
   text-transform: uppercase;
 }
 .explainer-nanny .nanny-vector {
-  border: 2px solid black;
   width: 100%;
-  padding: 12% 10%;
+  padding: 19% 10%;
+  display: flex;
+  justify-content: center;
 }
 .explainer-nanny .explainer-button {
   display: flex;
@@ -327,44 +324,39 @@ header .links {
 }
 .works-content {
   background: salmon;
-  border: 2px solid blue;
   display: flex;
   padding: 10% 0;
   width: 100%;
 }
 .iphone-vector {
-  border: 2px solid green;
   margin-left: 10%;
 }
 div {
   width: 30%;
 }
 .works-titles {
-  border: 2px solid blue;
   color: white;
   margin-left: 10%;
   width: 40%;
+  padding-top: 8%;
 }
 .works-titles h1 {
   padding: 10% 0;
 }
 .works-titles h2 {
-  padding: 10% 0;
+  padding: 5% 0;
 }
 .trusted-content {
-  border: 2px solid red;
   width: 100%;
 }
 .trusted-top-header {
-  border: 2px green;
   width: 100%;
   text-align: center;
 }
 .trusted-top-header h1 {
-  padding: 5%;
+  padding: 3%;
 }
 .features-container {
-  border: 2px solid blue;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -375,20 +367,16 @@ div {
   padding: 2% 0%;
 }
 .features-container .icon-title {
-  border: 2px solid red;
   display: flex;
   align-items: baseline;
 }
 .features-container h4 {
-  border: 2px solid blue;
   margin: 0 10%;
 }
 .testimonials-content {
-  border: 2px solid blue;
   width: 100%;
 }
 .testimonials-header {
-  border: 2px solid green;
   width: 100%;
   text-align: center;
 }
@@ -396,14 +384,13 @@ div {
   padding: 5%;
 }
 .testimonials-container {
-  border: 2px solid red;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  padding: 5% 0;
 }
 .testimonials-container .icon-title {
-  border: 2px solid red;
   display: flex;
   align-items: center;
   width: 54%;
@@ -412,33 +399,29 @@ div {
 .testimonials-container .testimonial-card {
   width: 45%;
   margin: 3% 0;
+  padding-top: 3%;
   border-radius: 5px;
-  margin-top: 5%;
   border: 1px solid lightgray;
-  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 10px 80px -25px rgba(0, 0, 0, 0.25);
 }
-.testimonials-container p {
-  border: 2px solid blue;
-  padding: 0 2%;
+.testimonials-container .testimonial-card p {
+  padding: 0 5%;
 }
 .footer-content {
   background: salmon;
-  border: 2px solid blue;
   display: flex;
   padding: 10% 0;
+  margin-top: 2%;
 }
 .footer-vector {
-  border: 2px solid black;
   margin-left: 10%;
 }
 .footer-titles {
-  border: 2px solid blue;
   color: white;
   margin-left: 10%;
-  width: 40%;
   padding-top: 2%;
 }
-.footer-button {
+.footer-titles .footer-button {
   display: flex;
   justify-content: center;
   width: 150px;
@@ -446,11 +429,39 @@ div {
   color: #f7926f;
   background-color: #fff;
   border: none;
-  border-radius: 10px;
+  border-radius: 5px;
   margin-top: 15%;
+  cursor: pointer;
 }
-.footer-button:hover {
-  background-color: #f7926f;
+.footer-titles .footer-button:hover {
   color: #fff;
+  border: 2px solid #fff;
+  background-color: transparent;
 }
 /***** ABOUT PAGE STYLES *****/
+.profile-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 100%;
+  justify-content: space-evenly;
+  margin-top: 7%;
+}
+.profile div {
+  width: 100%;
+  margin: 10% 0;
+}
+.profile .icon-title {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+.profile .icon-title img {
+  width: 50%;
+}
+.profile-title h4 {
+  text-align: center;
+}
+.profile-title p {
+  padding: 0 14%;
+}

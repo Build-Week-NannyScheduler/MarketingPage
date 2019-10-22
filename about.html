@@ -5,19 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>nanda - on demand sitters</title>
+    <!-- /***** IMPORT GOOGLE FONT HERE FOR UI("inter" font but use Roboto for now) DESIGN *****/ -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <!-- IMPORT CSS STYLES HERE -->
+    <link rel="stylesheet" href="css/index.css" />
   </head>
 
-  <body>
+  <body class="container">
     <header>
       <!-- ***** NAVIGATION SECTION ***** -->
       <nav>
         <!-- panda bear logo -->
-        <div>
-          <img src="/images/logo.svg" alt="panda bear logo" />
+        <div class="logo">
+          <a href="index.html"
+            ><img src="/images/logo.svg" alt="panda bear logo"
+          /></a>
         </div>
         <!-- navigation links -->
-        <div>
-          <a href="img sr"></a>
+        <div class="links">
           <a href="#">About</a>
           <a href="#">How it works</a>
           <a href="#">Contact</a>
@@ -26,15 +34,15 @@
     </header>
 
     <!-- ***** HERO SECTION ***** -->
-    <section>
-      <div>
+    <section class="hero-content">
+      <div class="hero-titles">
         <h1>Child care that fits your lifestyle</h1>
-        <h3>
+        <h2>
           The nanda founding team have kids, run day care’s, and know the
           challenge of finding a trusted and quality sitter.
-        </h3>
+        </h2>
       </div>
-      <div>
+      <div class="hero-vector">
         <img
           src="/images/about-team.svg"
           alt="family of parents and kids and nannies playing"
@@ -43,25 +51,25 @@
     </section>
 
     <!-- ***** NANDA LEADERSHIP & COFOUNDER SECTION***** -->
-    <section>
-      <div>
-        <h1>Trusted and Verifed</h1>
-        <h3>
-          We built our team with experience in childcare. Email us anytime.
-        </h3>
+    <section class="trusted-content">
+      <div class="trusted-top-header">
+        <h1>nanda leadership team and cofounders</h1>
+        <h2>
+          We built our team with experience in childcare.
+        </h2>
       </div>
+
       <!-- Team leadership profiles 3 of them side by side -->
-      <div>
+      <div class="profile-container">
         <!-- Sheila profile -->
-        <div>
-          <div>
+        <div class="profile">
+          <div class="icon-title">
             <img
               src="/images/sheila-profile-pic.svg"
               alt="sheila person with glasses picture smiling"
             />
           </div>
-          <div>
-            <img src="/images/email-icon.svg" alt="orange email icon" />
+          <div class="profile-title">
             <h4>Sheila Eichenberger</h4>
             <p>
               Sheila was responsible for React 2 development, build the state
@@ -70,34 +78,30 @@
           </div>
         </div>
         <!-- Jen profile -->
-        <div>
-          <div>
+        <div class="profile">
+          <div class="icon-title">
             <img
               src="/images/jen-profile-pic.svg"
-              alt="jennifer person black and white picture smiling"
+              alt="sheila person with glasses picture smiling"
             />
           </div>
-          <div>
-            <div>
-              <img src="/images/email-icon.svg" alt="orange email icon" />
-              <h4>Jen Chartier</h4>
-              <p>
-                Jen was responsbile for React 1 development, building
-                components, and connecting the frontend to backend.
-              </p>
-            </div>
+          <div class="profile-title">
+            <h4>Jen Chartier</h4>
+            <p>
+              Jen was responsbile for React 1 development, building components,
+              and connecting the frontend to backend.
+            </p>
           </div>
         </div>
         <!-- Todd profile -->
-        <div>
-          <div>
+        <div class="profile">
+          <div class="icon-title">
             <img
               src="/images/todd-profile-pic.svg"
               alt="man on bike by river smiling at camera"
             />
           </div>
-          <div>
-            <img src="/images/email-icon.svg" alt="orange email icon" />
+          <div class="profile-title">
             <h4>Todd Murphy</h4>
             <p>
               Todd was responsible for website development and design the UI
@@ -105,20 +109,68 @@
             </p>
           </div>
         </div>
+        <!-- Ian profile -->
+        <div class="profile">
+          <div class="icon-title">
+            <img
+              src="images/nanda-profile-pic.svg"
+              alt="sheila person with glasses picture smiling"
+            />
+          </div>
+          <div class="profile-title">
+            <h4>Ian Sanchez</h4>
+            <p>
+              Ian was responsible for backend development, building API end
+              points, and database design.
+            </p>
+          </div>
+        </div>
+        <!-- Tucker profile -->
+        <div class="profile">
+          <div class="icon-title">
+            <img
+              src="images/tucker-profile-pic.svg"
+              alt="sheila person with glasses picture smiling"
+            />
+          </div>
+          <div class="profile-title">
+            <h4>Tucker Way</h4>
+            <p>
+              Tucker was responsible for being our team lead, facilitating daily
+              stand ups, and help code if needed.
+            </p>
+          </div>
+        </div>
+        <!-- nanda profile -->
+        <div class="profile">
+          <div class="icon-title">
+            <img
+              src="images/nanda-profile-pic.svg"
+              alt="happy panda bear icons"
+            />
+          </div>
+          <div class="profile-title">
+            <h4>nanda</h4>
+            <p>
+              nanda is our team mascot and happiest panda bear who loves being a
+              childs favourtie toy to make them happy.
+            </p>
+          </div>
+        </div>
       </div>
     </section>
 
     <!-- ***** FOOTER SECTION ***** -->
-    <section>
-      <div>
+    <section class="footer-content">
+      <div class="footer-vector">
         <img
           src="/images/footer-logo.svg"
           alt="large panda logo for footer content"
         />
       </div>
-      <div>
-        <h1>Trust your children with nanda</h1>
-        <button>Sign up</button>
+      <div class="footer-titles">
+        <h1>Trust your children with nanda.</h1>
+        <button class="footer-button">Sign up</button>
       </div>
     </section>
   </body>
