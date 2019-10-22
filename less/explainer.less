@@ -22,6 +22,14 @@
   justify-content: space-evenly;
   padding: 5% 0;
 
+  @media @tablet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5% 0;
+  }
+
   @media @mobile {
     display: flex;
     flex-direction: column;
@@ -33,6 +41,10 @@
 
 .explainer-parent {
   width: 35%;
+
+  @media @tablet {
+    margin-bottom: 10%;
+  }
 
   @media @mobile {
     margin-bottom: 10%;

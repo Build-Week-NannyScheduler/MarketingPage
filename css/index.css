@@ -322,6 +322,15 @@ header .links a {
   justify-content: space-evenly;
   padding: 5% 0;
 }
+@media (max-width: 800px) {
+  .nanny-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5% 0;
+  }
+}
 @media (max-width: 500px) {
   .nanny-container {
     display: flex;
@@ -333,6 +342,11 @@ header .links a {
 }
 .explainer-parent {
   width: 35%;
+}
+@media (max-width: 800px) {
+  .explainer-parent {
+    margin-bottom: 10%;
+  }
 }
 @media (max-width: 500px) {
   .explainer-parent {
@@ -447,9 +461,14 @@ div {
 .features-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 100%;
   padding: 5% 5%;
+}
+@media (max-width: 800px) {
+  .features-container {
+    border: 1px solid blue;
+  }
 }
 @media (max-width: 500px) {
   .features-container {
@@ -460,6 +479,11 @@ div {
 }
 .features-container div {
   padding: 2% 0%;
+}
+@media (max-width: 800px) {
+  .features-container div {
+    width: 40%;
+  }
 }
 @media (max-width: 500px) {
   .features-container div {
