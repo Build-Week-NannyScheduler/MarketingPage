@@ -301,6 +301,11 @@ header nav .links {
 .explainer-content {
   width: 100%;
 }
+@media (max-width: 500px) {
+  .explainer-content {
+    margin: 7% 0;
+  }
+}
 .explainer-titles {
   width: 100%;
   text-align: center;
@@ -314,8 +319,22 @@ header nav .links {
   justify-content: space-evenly;
   padding: 5% 0;
 }
+@media (max-width: 500px) {
+  .nanny-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5% 0;
+  }
+}
 .explainer-parent {
   width: 35%;
+}
+@media (max-width: 500px) {
+  .explainer-parent {
+    margin-bottom: 10%;
+  }
 }
 .explainer-parent h4 {
   text-align: center;

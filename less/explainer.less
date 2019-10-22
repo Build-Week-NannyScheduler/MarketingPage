@@ -1,5 +1,9 @@
 .explainer-content {
   width: 100%;
+
+  @media @mobile {
+    margin: 7% 0;
+  }
 }
 
 .explainer-titles {
@@ -17,10 +21,22 @@
   display: flex;
   justify-content: space-evenly;
   padding: 5% 0;
+
+  @media @mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5% 0;
+  }
 }
 
 .explainer-parent {
   width: 35%;
+
+  @media @mobile {
+    margin-bottom: 10%;
+  }
 
   h4 {
     text-align: center;
