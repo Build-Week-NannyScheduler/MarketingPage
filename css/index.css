@@ -177,44 +177,65 @@ header {
   padding: 2% 0;
   width: 100%;
 }
-nav {
-  display: flex;
-  justify-content: flex-end;
-  width: 100%;
-}
 @media (max-width: 500px) {
-  nav {
+  header {
     display: flex;
     flex-direction: column;
     align-items: center;
     border: 2px solid red;
   }
-  nav div {
+}
+header nav {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+@media (max-width: 500px) {
+  header nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+  }
+  header nav div {
     width: 20%;
   }
-  nav a {
+  header nav a {
     font-size: 2rem;
     color: #0a1f44;
     text-decoration: none;
   }
 }
-nav .logo {
+@media (max-width: 500px) and (max-width: 500px) {
+  header nav a {
+    border: 2px solid gold;
+    padding: 5%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+header nav .logo {
   width: 15%;
   margin-right: auto;
 }
-@media mobile {
-  nav .logo {
-    border: 2px solid blue;
+@media (max-width: 500px) {
+  header nav .logo {
+    width: 15%;
   }
 }
-nav .links {
+header nav .logo img {
+  border: 2px solid purple;
+}
+header nav .links {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   width: 45%;
 }
 @media (max-width: 500px) {
-  nav .links {
+  header nav .links {
     border: 2px solid green;
     display: flex;
     flex-direction: column;
