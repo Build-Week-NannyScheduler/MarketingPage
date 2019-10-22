@@ -182,7 +182,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 2px solid red;
+    padding: 0;
   }
 }
 header nav {
@@ -195,23 +195,26 @@ header nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 2px solid black;
   }
   header nav div {
     width: 20%;
   }
 }
 header .logo {
-  width: 15%;
+  width: 30%;
   margin-right: auto;
 }
 @media (max-width: 500px) {
   header .logo {
-    width: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: lightgray;
   }
 }
 header .logo img {
-  border: 2px solid purple;
+  width: 30%;
+  padding: 2% 0;
 }
 header .links {
   display: flex;
@@ -221,7 +224,6 @@ header .links {
 }
 @media (max-width: 500px) {
   header .links {
-    border: 2px solid green;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -235,7 +237,6 @@ header .links a {
 }
 @media (max-width: 500px) {
   header .links a {
-    border: 2px solid gold;
     padding: 5%;
     width: 100%;
     display: flex;

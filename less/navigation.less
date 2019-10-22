@@ -6,7 +6,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 2px solid red;
+    padding: 0;
   } //This closes the header
 
   nav {
@@ -18,7 +18,6 @@ header {
       display: flex;
       flex-direction: column;
       align-items: center;
-      border: 2px solid black;
 
       div {
         width: 20%;
@@ -27,15 +26,19 @@ header {
   } //This closes the nav
 
   .logo {
-    width: 15%;
+    width: 30%;
     margin-right: auto;
 
     @media @mobile {
-      width: 15%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      background: lightgray;
     }
 
     img {
-      border: 2px solid purple;
+      width: 30%;
+      padding: 2% 0;
     }
     // @media mobile {
     //   border: 2px solid blue;
@@ -52,7 +55,6 @@ header {
     width: 45%;
 
     @media @mobile {
-      border: 2px solid green;
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -65,7 +67,6 @@ header {
       text-decoration: none;
 
       @media @mobile {
-        border: 2px solid gold;
         padding: 5%;
         width: 100%;
         display: flex;
