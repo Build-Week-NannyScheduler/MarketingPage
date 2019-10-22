@@ -225,6 +225,7 @@ header .logo {
     display: flex;
     justify-content: center;
     background: lightgray;
+    padding: 2% 0;
   }
 }
 @media (max-width: 500px) {
@@ -233,11 +234,17 @@ header .logo {
     display: flex;
     justify-content: center;
     background: lightgray;
+    padding: 2% 0;
   }
 }
-header .logo img {
+header .logo a img {
   width: 30%;
   padding: 2% 0;
+}
+@media (max-width: 800px) {
+  header .logo a img {
+    width: 100%;
+  }
 }
 header .links {
   display: flex;
