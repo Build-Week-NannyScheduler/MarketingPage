@@ -254,6 +254,11 @@ header nav .links {
   margin-top: 5%;
   padding: 0 13%;
 }
+@media (max-width: 500px) {
+  .hero-titles {
+    width: 100%;
+  }
+}
 .hero-titles h1 {
   padding: 10% 0;
   line-height: 1.5;
@@ -284,6 +289,11 @@ header nav .links {
 .hero-vector {
   width: 40%;
   margin-top: 5%;
+}
+@media (max-width: 500px) {
+  .hero-vector {
+    display: none;
+  }
 }
 .hero-vector img {
   margin-left: 17%;
