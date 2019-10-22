@@ -177,6 +177,14 @@ header {
   padding: 2% 0;
   width: 100%;
 }
+@media (max-width: 800px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+}
 @media (max-width: 500px) {
   header {
     display: flex;
@@ -189,6 +197,13 @@ header nav {
   display: flex;
   justify-content: flex-end;
   width: 100%;
+}
+@media (max-width: 800px) {
+  header nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 @media (max-width: 500px) {
   header nav {
@@ -203,6 +218,14 @@ header nav {
 header .logo {
   width: 30%;
   margin-right: auto;
+}
+@media (max-width: 800px) {
+  header .logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: lightgray;
+  }
 }
 @media (max-width: 500px) {
   header .logo {
@@ -222,6 +245,14 @@ header .links {
   align-items: center;
   width: 45%;
 }
+@media (max-width: 800px) {
+  header .links {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: salmon;
+  }
+}
 @media (max-width: 500px) {
   header .links {
     display: flex;
@@ -234,6 +265,16 @@ header .links a {
   font-size: 2rem;
   color: #0a1f44;
   text-decoration: none;
+}
+@media (max-width: 800px) {
+  header .links a {
+    padding: 5%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
 }
 @media (max-width: 500px) {
   header .links a {
@@ -593,7 +634,6 @@ div {
 }
 @media (max-width: 800px) {
   .profile-container {
-    border: 1px solid blue;
     display: flex;
     flex-direction: column;
     align-items: center;

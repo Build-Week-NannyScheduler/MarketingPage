@@ -2,6 +2,13 @@ header {
   padding: 2% 0;
   width: 100%;
 
+  @media @tablet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
   @media @mobile {
     display: flex;
     flex-direction: column;
@@ -13,6 +20,12 @@ header {
     display: flex;
     justify-content: flex-end;
     width: 100%;
+
+    @media @tablet {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
 
     @media @mobile {
       display: flex;
@@ -28,6 +41,13 @@ header {
   .logo {
     width: 30%;
     margin-right: auto;
+
+    @media @tablet {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      background: lightgray;
+    }
 
     @media @mobile {
       width: 100%;
@@ -54,6 +74,13 @@ header {
     align-items: center;
     width: 45%;
 
+    @media @tablet {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      background: salmon;
+    }
+
     @media @mobile {
       display: flex;
       flex-direction: column;
@@ -65,6 +92,15 @@ header {
       font-size: 2rem;
       color: #0a1f44;
       text-decoration: none;
+
+      @media @tablet {
+        padding: 5%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+      }
 
       @media @mobile {
         padding: 5%;
