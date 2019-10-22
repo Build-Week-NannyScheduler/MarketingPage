@@ -6,6 +6,13 @@
   justify-content: space-evenly;
   margin-top: 7%;
 
+  @media @tablet {
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   @media @mobile {
     display: flex;
     flex-direction: column;
@@ -14,6 +21,10 @@
 }
 
 .profile {
+  @media @tablet {
+    width: 80%;
+  }
+
   @media @mobile {
     width: 80%;
   }
@@ -37,9 +48,17 @@
 .profile-title {
   h4 {
     text-align: center;
+
+    @media @tablet {
+      font-size: 2.4rem;
+    }
   }
 
   p {
     padding: 0 14%;
+
+    @media @tablet {
+      font-size: 1.6rem;
+    }
   }
 }

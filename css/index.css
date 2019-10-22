@@ -465,11 +465,6 @@ div {
   width: 100%;
   padding: 5% 5%;
 }
-@media (max-width: 800px) {
-  .features-container {
-    border: 1px solid blue;
-  }
-}
 @media (max-width: 500px) {
   .features-container {
     display: flex;
@@ -596,11 +591,24 @@ div {
   justify-content: space-evenly;
   margin-top: 7%;
 }
+@media (max-width: 800px) {
+  .profile-container {
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 @media (max-width: 500px) {
   .profile-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+}
+@media (max-width: 800px) {
+  .profile {
+    width: 80%;
   }
 }
 @media (max-width: 500px) {
@@ -623,6 +631,16 @@ div {
 .profile-title h4 {
   text-align: center;
 }
+@media (max-width: 800px) {
+  .profile-title h4 {
+    font-size: 2.4rem;
+  }
+}
 .profile-title p {
   padding: 0 14%;
+}
+@media (max-width: 800px) {
+  .profile-title p {
+    font-size: 1.6rem;
+  }
 }
