@@ -569,6 +569,18 @@ div {
   justify-content: space-evenly;
   margin-top: 7%;
 }
+@media (max-width: 500px) {
+  .profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 500px) {
+  .profile {
+    width: 80%;
+  }
+}
 .profile div {
   width: 100%;
   margin: 10% 0;
