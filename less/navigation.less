@@ -23,54 +23,56 @@ header {
       div {
         width: 20%;
       } //This closes teh nav div
+    } //This closes the nav a
+  } //This closes the nav
 
-      a {
-        font-size: 2rem;
-        color: #0a1f44;
-        text-decoration: none;
+  .logo {
+    width: 15%;
+    margin-right: auto;
 
-        @media @mobile {
-          border: 2px solid gold;
-          padding: 5%;
-          width: 100%;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-        } //This closes mobile a
-      } //This closes the nav a
-    } //This closes the nav
-
-    .logo {
+    @media @mobile {
       width: 15%;
-      margin-right: auto;
+    }
 
-      @media @mobile {
-        width: 15%;
-      }
+    img {
+      border: 2px solid purple;
+    }
+    // @media mobile {
+    //   border: 2px solid blue;
+    //   display: flex;
+    //   flex-direction: column;
+    //   align-items: center;
+    // } //This closes mobile logo
+  } //This closes the logo
 
-      img {
-        border: 2px solid purple;
-      }
-      // @media mobile {
-      //   border: 2px solid blue;
-      //   display: flex;
-      //   flex-direction: column;
-      //   align-items: center;
-      // } //This closes mobile logo
-    } //This closes the logo
+  .links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 45%;
 
-    .links {
+    @media @mobile {
+      border: 2px solid green;
       display: flex;
-      justify-content: space-evenly;
-      align-items: center;
-      width: 45%;
+      flex-direction: column;
+      width: 100%;
+      background: salmon;
+    }
+
+    a {
+      font-size: 2rem;
+      color: #0a1f44;
+      text-decoration: none;
 
       @media @mobile {
-        border: 2px solid green;
-        display: flex;
-        flex-direction: column;
+        border: 2px solid gold;
+        padding: 5%;
         width: 100%;
-      }
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+      } //This closes mobile a
     }
   } //This closes the header
 }
