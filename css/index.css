@@ -488,7 +488,6 @@ div {
 }
 @media (max-width: 500px) {
   .works-titles {
-    border: 2px solid blue;
     display: none;
   }
 }
